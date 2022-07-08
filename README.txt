@@ -1,13 +1,13 @@
 
 TITLE: 
-Crew - Responsive Free HTML5 template
+Honest - 100% Fully Responsive Free HTML5 Bootstrap Template
 
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
+DESIGNED & DEVELOPED by GetTemplates.co
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Website: http://gettemplates.co/
+Twitter: http://twitter.com/gettemplatesco
+Facebook: http://facebook.com/gettemplatesco
 
 
 CREDITS:
@@ -30,8 +30,8 @@ https://www.google.com/fonts/
 Icomoon
 https://icomoon.io/app/
 
-Simple Line Icons
-https://github.com/thesabbir/simple-line-icons
+Themify Icons
+https://themify.me/themify-icons
 
 Respond JS
 https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
@@ -40,10 +40,21 @@ animate.css
 http://daneden.me/animate
 
 jQuery Waypoint
+Sticky by Waypoint
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
 Owl Carousel
 http://www.owlcarousel.owlgraphic.com/
 
-Styleswitcher for Demo
-https://github.com/camsjams/jquery-style-switcher
+jQuery countTo
+http://www.owlcarousel.owlgraphic.com/
+
+Magnific Popup
+http://dimsemenov.com/plugins/magnific-popup/
+
+Stellar Parallax
+http://markdalgleish.com/projects/stellar.js/
+
+Demo Images:
+http://unsplash.com
+
