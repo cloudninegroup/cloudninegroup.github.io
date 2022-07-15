@@ -35,12 +35,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         var iframe = document.getElementById("iFrame");
+        var placeholder = document.getElementById("placeholder");
+
         var timerId = setInterval("reloadIFrame();", 2000);
 
+        showHideToggle(iframe);
+
         $(document).ready(function() {
+
             $('#iFrame').on('load', function() {
                 clearInterval(timerId)
-                showHideToggle();
+                showHideToggle(placeholder);
+                showHideToggle(iframe);
                 console.log("Finally Loaded"); //work control
             });
         });
@@ -58,12 +64,11 @@
             console.log("Looping");
         }
 
-        function showHideToggle() {
-            var x = document.getElementById("placeholder");
-            if (x.style.display === "none") {
-                x.style.display = "block";
+        function showHideToggle(id) {
+            if (id.style.display === "none") {
+                id.style.display = "block";
             } else {
-                x.style.display = "none";
+                id.style.display = "none";
             }
         }
     </script>
